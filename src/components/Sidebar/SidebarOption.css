@@ -1,0 +1,29 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-out;
+}
+
+.sidebarOption--active {
+  color: var(--twitter-color);
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  /* MuiSvgIcon-root is a class which material ui adds to the svg icons - can be
+  seen when you inspect the elements on the page. use > to select all SVG'S in
+  the .sidebarOptions div*/
+  padding: 20px;
+}
+
+.sidebarOption > h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+}
