@@ -19,6 +19,11 @@
   margin-left: 20px;
   font-size: 20px;
   border: none;
+  outline: none;
+}
+
+.tweetBox form > input {
+  outline: none;
 }
 
 .tweetBox__tweetButton {
@@ -29,9 +34,10 @@
   /* text-transform: inherit !important; - this will remove the upper case text */
   text-transform: inherit !important;
   border-radius: 30px !important;
-  height: 50px;
+  height: 40px;
   margin-top: 20px !important;
   margin-left: auto !important;
+  padding: 0 15px !important;
 }
 
 .tweetBox__imageInput {
